@@ -1,6 +1,7 @@
 # show available tasks as default
 #
 task :default do
+  puts "--> Available Tasks !!"
   system 'bundle exec rake -T'
 end
 
