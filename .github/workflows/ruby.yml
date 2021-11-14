@@ -17,5 +17,5 @@ jobs:
     - name: Run tests
       run: |
         bundle exec rake -T
-        bundle exec rake :default
-        bundle exec rake :hello
+        bundle exec rake default
+        bundle exec rake hello
